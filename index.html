@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Cloning Application</title> <!--The application allows the user to clone divs and move them around in the page-->
+	<link rel="stylesheet" type="text/css" href="main.css"> <!-- Link to css -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="garbage"></div> <!--Garbage bin, we need to make it able to detect if one element is on top of other element
+	we will do it using collision detection-->
+	<!--This elements are going to be selected using the class copyMe-->
+	<div class="copyMe"></div> <!--Its possible to place anything in the boxes-->
+	<div class="copyMe"></div>
+	<div class="copyMe"></div>
+	<div id="ghost1"></div>
+	<div id="ghost2"></div>
+	<div id="ghost3"></div>
+	<div id="ghost4"></div>
+	<div id="linea"></div>
+	<div id="vertical"></div>
+	<div id="vertical1"></div>
+	<div id="linea1"></div>
+	<div id="linea2"></div>
+	<div id="linea3"></div>
+	<div id="linea4"></div>
+	<div id="vertical2"></div>
+	<div id="text">
+		<h1>CLONING AND DRAGGING PACMAN</h1>
+		<br>
+		<h2>INSTRUCTIONS</h2>
+		<br>
+		<p>Help Pacman reach the apple basket, using the mouse and dodging the ghosts.</p>
+		<ul>
+			<li>Clone Pacman with click</li>
+			<li>Move Pacman using your cursor</li>
+			<li>Lead Pacman to the Apple Basket</li>
+		</ul>
+	</div>
+	<script src="script.js"></script> <!--Link to JavaScript-->
+</body>
+</html>
